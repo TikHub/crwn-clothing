@@ -29,7 +29,11 @@ const Home = () => {
     },
   ];
 
-  return <Category categories={categories} />;
+  return (
+    <div>
+      <Category categories={categories} />
+    </div>
+  );
 };
 
 export default Home;
